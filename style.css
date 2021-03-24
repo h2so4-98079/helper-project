@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    min-height: 100vh;
+}
+
+table, th, td {
+    border-style: solid;
+    border-width: 5px 4px;
+    border-color: #e6e6e6;
+    border-collapse: collapse;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-width: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container {
+    margin: 10px;
+    width: 900px;
+}
+
+.title-container {
+    padding: 10px;
+    font-size: 1.7rem;
+    text-align: center;
+    text-decoration: underline 5px #4d4d4d;
+    /*text-underline-position: under;*/
+}
+
+.table-heading-container {
+    background-color: #e6e6e6;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.table-heading {
+    padding: 1px 10px 1px 12px;
+}
+
+.problem-name {
+    text-align: left;
+}
+
+.index {
+    width: 40px;
+}
+
+.difficulty, .remove, .date-added {
+    width: 100px;
+}
+
+.remove-button {
+    background-color: #d9d9d9;
+    color: red;
+    font-size: 16px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.remove-button:hover {
+    background-color: red;
+    color: white;
+}
+

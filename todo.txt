@@ -17,7 +17,56 @@ todo
 
 -> parse all the saved information in the local storage and display them in the dashboard
 
+
+-> create the table-row element
+-> create the 
+
 --------
 -> How it's actually showing the all the data onload though?
 -> there must be something that I am missing.
 -> need to figure out that for sure
+
+
+----------------------------------------------------------------------------------
+
+#TODO
+-> When user clicks on the code then open the popup box and show the code in it.
+-> now how to know that which td's code link is clicked?
+-> also how to show that code in that html popup box?
+-> One way to do that would be is to store the code in the link and then when user clicks it we should show that code in the new html page.
+-> and to know that which 
+
+
+----------------------------------------------------------------------------------
+
+-> parse the name of the problem and get difficulty, if link is of codeforces
+
+
+https://codeforces.com/problemset/problem/1506/A
+https://codeforces.com/contest/1506/problem/A
+
+
+#todo : get the contest id and problem 
+#todo : get the problem difficulty with the help of the contest id using the codeforces api
+#todo : save all the information in the problem object
+#todo : show all the information in the dashboard appropriately
+
+
+----------------------------------------------------------------------------------------------
+
+#todo : connect the mongoDB.
+#todo : Use appropriate styling in the code.
+#todo : decide the future functionlity for the project.
+#todo : use the jquery in the code.
+#todo : learn typescript
+#todo : learn react
+#todo : decide which one to use in the code and use one
+
+#todo : change class to id in the entire project accordingly.
+
+
+----------------------------------------------------------------------------------------------
+
+#todo : work with postman
+#todo : get it work postman
+#todo : make postman to work for the codeforces api related task

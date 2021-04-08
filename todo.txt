@@ -1,0 +1,23 @@
+todo
+
+-> on clicking the submit button popup should close and it should save all the information that user have entered.
+
+-> Informations : 
+	- Date
+	- Problem Link
+	- Problem Name(User entered)
+	- Problem Code(User entered)
+
+
+-> create the object which contains this variables.
+-> create the array of this objects
+-> append this object in our array and then save it to the our storage
+
+----------------------------------------------------------------------------------
+
+-> parse all the saved information in the local storage and display them in the dashboard
+
+--------
+-> How it's actually showing the all the data onload though?
+-> there must be something that I am missing.
+-> need to figure out that for sure

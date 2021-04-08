@@ -2,8 +2,9 @@
 <html>
 <head>
     <title>Dashboard</title>
-    <script type="text/javascript" src="./app.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <!-- scripts -->
+    <!-- links -->
+    <link rel="stylesheet" href="../css/dashboard-style.css">
 </head>
 <body>
     <header>
@@ -17,18 +18,20 @@
             <h2 class="table-heading">Problems</h2>
         </div>
         <table class="problem-table">
-            <tr>
+            <tr class="heading">
                 <th class="index">#</th>
                 <th class="problem-name-heading">Name</th>
                 <th class="difficulty">Difficulty</th>
                 <th class="date-added">Date Added</th>
+                <th class="code">Code</th>
                 <th class="remove">Remove</th>
             </tr>
-            <tr>
+
+            <!-- <tr>
                 <td>1</td>
                 <td class="problem-name">a</td>
-                <td>1800</td>
-                <td>12/02/2021</td>
+                <td class="problem-difficulty">1800</td>
+                <td class="date">12/02/2021</td>
                 <td><button type="button" class="remove-button">Remove</button></td>
             </tr>
             <tr>
@@ -58,8 +61,9 @@
                 <td>3200</td>
                 <td>16/02/2021</td>
                 <td><button type="button" class="remove-button">Remove</button></td>
-            </tr>
+            </tr> -->
         </table>
+        <script type="text/javascript" src="../js/dashboard.js"></script>
     </div>
 </body>
 </html>
